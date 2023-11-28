@@ -22,7 +22,7 @@ int main() {
 
     //create features        
     AimBot* aimBot = new AimBot(cl, display, level, localPlayer, players);
-    TriggerBot* triggerBot = new TriggerBot(cl, display, level, localPlayer, players);
+    //TriggerBot* triggerBot = new TriggerBot(cl, display, level, localPlayer, players);
     Sense* sense = new Sense(cl, display, level, localPlayer, players);
 
     //begin main loop
@@ -64,7 +64,7 @@ int main() {
                 }
 
             //run features                
-            triggerBot->shootAtEnemy();
+            //triggerBot->shootAtEnemy();
             aimBot->aimAssist(counter);
             sense->modifyHighlights();
             sense->glowPlayers();

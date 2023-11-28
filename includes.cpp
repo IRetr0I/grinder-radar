@@ -21,6 +21,7 @@
 #include <cctype>
 #include <locale>
 #include <iterator>
+#include "MyDisplay.hpp"
 #include "ConfigLoader.cpp"
 #include "Offsets.cpp"
 #include "WeaponId.cpp"
@@ -30,10 +31,8 @@
 #include "GlowMode.cpp"
 #include "Color.cpp"
 #include "Memory.cpp" 
-#include "XDisplay.cpp"
 #include "Level.cpp"
 #include "LocalPlayer.cpp"
 #include "Player.cpp"
 #include "Sense.cpp"
-#include "TriggerBot.cpp"
 #include "AimBot.cpp"

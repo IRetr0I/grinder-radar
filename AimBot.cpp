@@ -1,13 +1,13 @@
 #pragma once
 struct AimBot {
     ConfigLoader* cl;
-    XDisplay* display;
+    MyDisplay* display;
     Level* level;
     LocalPlayer* localPlayer;
     std::vector<Player*>* players;
     Player* target = nullptr;
 
-    AimBot(ConfigLoader* cl, XDisplay* display, Level* level, LocalPlayer* localPlayer, std::vector<Player*>* players) {
+    AimBot(ConfigLoader* cl, MyDisplay* display, Level* level, LocalPlayer* localPlayer, std::vector<Player*>* players) {
         this->cl = cl;
         this->display = display;
         this->level = level;
